@@ -2,13 +2,25 @@
   "name": "Dawarich",
   "version": "1.0.2",
   "slug": "dawarich",
-  "description": "Self-hosted location history web app",
-  "arch": ["amd64", "aarch64", "armv7", "armhf"],
+  "description": "Dawarich — self-hosted location history web app",
+  "arch": [
+    "amd64",
+    "aarch64",
+    "armv7",
+    "armhf"
+  ],
   "startup": "services",
   "boot": "auto",
-  "ports": {"3000/tcp": 3000},
+  "ports": {
+    "3000/tcp": 3000
+  },
+  "ports_description": {
+    "3000/tcp": "Web interface (not needed if using Ingress)"
+  },
   "host_network": false,
-  "map": ["data:rw"],
+  "map": [
+    "data:rw"
+  ],
   "options": {
     "DB_PATH": "/data/dawarich.sqlite3",
     "PORT": 3000,
