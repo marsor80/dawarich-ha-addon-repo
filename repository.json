@@ -2,9 +2,7 @@
   "name": "Dawarich Home Assistant Add-on Repository",
   "slug": "dawarich-ha-addon-repo",
   "url": "https://github.com/marsor80/dawarich-ha-addon-repo",
-  "maintainers": [
-    "marsor80"
-  ],
+  "maintainers": ["marsor80"],
   "addons": [
     {
       "name": "Dawarich",
