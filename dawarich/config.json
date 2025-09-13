@@ -34,8 +34,8 @@
     "SECRET_KEY_BASE": "password"
   },
   "image": "ghcr.io/freika/dawarich:latest",
-  "webui": "[PROTO:INGRESS]",
   "ingress": true,
   "ingress_port": 3000,
-  "ingress_stream": true
+  "ingress_stream": true,
+  "webui": "http://[HOST]:[PORT:3000]"
 }
