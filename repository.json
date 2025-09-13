@@ -10,7 +10,7 @@
       "name": "Dawarich",
       "slug": "dawarich",
       "description": "Self-hosted location history web app add-on for Home Assistant",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "url": "https://github.com/marsor80/dawarich-ha-addon-repo/tree/main/dawarich"
     }
   ]

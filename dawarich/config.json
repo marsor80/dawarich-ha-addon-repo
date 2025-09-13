@@ -1,6 +1,6 @@
 {
   "name": "Dawarich",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "slug": "dawarich",
   "description": "Dawarich — self-hosted location history web app",
   "arch": [
@@ -33,7 +33,6 @@
     "LOG_LEVEL": "list(debug|info|warn|error)",
     "SECRET_KEY_BASE": "password"
   },
-  "image": "ghcr.io/freika/dawarich:latest",
   "ingress": true,
   "ingress_port": 3000,
   "ingress_stream": true,
